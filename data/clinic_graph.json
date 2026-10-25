@@ -1,0 +1,41 @@
+{
+  "about": "Knowledge graph of the clinic, built from docs/*.md. Each triple is [subject, relation, object].",
+  "triples": [
+    ["Dr Mei Lin Tan", "speaks", "Mandarin"],
+    ["Dr Mei Lin Tan", "speaks", "English"],
+    ["Dr Mei Lin Tan", "runs", "Exam Stress workshop"],
+    ["Dr Mei Lin Tan", "supervises", "Peer support"],
+    ["Arjun Pillai", "speaks", "Tamil"],
+    ["Arjun Pillai", "speaks", "English"],
+    ["Arjun Pillai", "runs", "Sleep Better workshop"],
+    ["Arjun Pillai", "offers", "Online sessions"],
+    ["Nurul Huda", "speaks", "Malay"],
+    ["Nurul Huda", "speaks", "English"],
+    ["Nurul Huda", "trains", "Peer support volunteers"],
+    ["Nurul Huda", "handles", "Faculty letters"],
+    ["Exam Stress workshop", "runs on", "Thursdays at 4pm, weeks 9 to 12"],
+    ["Exam Stress workshop", "is a", "Group workshop"],
+    ["Sleep Better workshop", "runs on", "Tuesdays at 1pm"],
+    ["Sleep Better workshop", "is a", "Group workshop"],
+    ["Group workshop", "costs", "Free"],
+    ["Group workshop", "lasts", "One hour"],
+    ["Peer support", "runs on", "Wednesdays, 12pm to 2pm"],
+    ["Peer support volunteers", "run", "Peer support"],
+    ["Online sessions", "take place by", "Video call"],
+    ["Faculty letters", "need", "The student's written consent"],
+    ["First consultation", "costs", "Free"],
+    ["First consultation", "lasts", "50 minutes"],
+    ["Counselling records", "are kept separate from", "Academic records"]
+  ],
+  "aliases": {
+    "Dr Mei Lin Tan": ["Dr Tan", "Mei Lin"],
+    "Arjun Pillai": ["Mr Pillai", "Arjun"],
+    "Nurul Huda": ["Ms Huda", "Nurul"],
+    "Exam Stress workshop": ["exam stress"],
+    "Sleep Better workshop": ["sleep better", "sleep workshop"],
+    "Peer support": ["peer support"],
+    "Online sessions": ["online", "video"],
+    "Faculty letters": ["letter", "faculty"],
+    "Counselling records": ["records", "notes"]
+  }
+}
